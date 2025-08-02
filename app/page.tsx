@@ -1,6 +1,6 @@
 
 export default function Home() {
   return (
-    <h1 className="underline text-terra-primary">SkillCraft</h1>
+    <h1>Landing-Page</h1>
   );
 }
