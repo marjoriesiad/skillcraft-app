@@ -5,7 +5,7 @@ export const navigationItems = [
   { title: "FAQ", href: "/#faq" },
 ];
 
-// TODO: Ajouter le displayName lorsque l'auth sera fonctionnel
+export const getDisplayName = (user?: {name?:string; email?:string}) => user?.name ?? user?.email?.split("@")[0] ?? "Utilisateur"
 
 
 // HOOK: renvoie true si window.scrollY dépasse le seuil
