@@ -150,7 +150,7 @@ export const RegisterModal: React.FC<RegisterModalProps> = ({ isOpen, onOpenChan
                 value={formData.username}
                 onChange={handleInputChange}
                 className="bg-secondary border-secondary text-white placeholder:text-white/50"
-                placeholder="votre_pseudo"
+                placeholder="Votre pseudo"
                 required
               />
             </div>
